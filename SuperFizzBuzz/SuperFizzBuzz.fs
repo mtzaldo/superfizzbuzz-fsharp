@@ -10,17 +10,21 @@ type Range(start : int, last: int) =
         if start > last then
             invalidArg "start" "start should be less or equal than end"
 
+    member this.GetValues: seq<int> =
+        seq [start..last]    
+
     interface IRange with
-        member this.GetValues =
-            seq [start..last]
+        member this.GetValues = this.GetValues
 
 type RangeValue(values: seq<int>) =
     do
         if isNull(values) then
             invalidArg "values" "values can't be null"
 
+    member this.GetValues = values        
+
     interface IRange with
-        member this.GetValues = values
+        member this.GetValues = this.GetValues
 
 type SuperFizzBuzz(range: IRange, replacements: Dictionary<int, string>) =
     member this.Get: seq<string> =

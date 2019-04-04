@@ -9,6 +9,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SuperFizzBuzz.Classic", "Su
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SuperFizzBuzz.Advanced", "SuperFizzBuzz.Advanced\SuperFizzBuzz.Advanced.fsproj", "{CEC8562D-C261-4C83-A182-34FB1BE07E55}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SuperFizzBuzz.Tests", "SuperFizzBuzz.Tests\SuperFizzBuzz.Tests.fsproj", "{98EF76A7-7B69-4AAF-928F-B5D74726022B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{CEC8562D-C261-4C83-A182-34FB1BE07E55}.Release|x64.Build.0 = Release|Any CPU
 		{CEC8562D-C261-4C83-A182-34FB1BE07E55}.Release|x86.ActiveCfg = Release|Any CPU
 		{CEC8562D-C261-4C83-A182-34FB1BE07E55}.Release|x86.Build.0 = Release|Any CPU
+		{98EF76A7-7B69-4AAF-928F-B5D74726022B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98EF76A7-7B69-4AAF-928F-B5D74726022B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98EF76A7-7B69-4AAF-928F-B5D74726022B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{98EF76A7-7B69-4AAF-928F-B5D74726022B}.Debug|x64.Build.0 = Debug|Any CPU
+		{98EF76A7-7B69-4AAF-928F-B5D74726022B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{98EF76A7-7B69-4AAF-928F-B5D74726022B}.Debug|x86.Build.0 = Debug|Any CPU
+		{98EF76A7-7B69-4AAF-928F-B5D74726022B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98EF76A7-7B69-4AAF-928F-B5D74726022B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98EF76A7-7B69-4AAF-928F-B5D74726022B}.Release|x64.ActiveCfg = Release|Any CPU
+		{98EF76A7-7B69-4AAF-928F-B5D74726022B}.Release|x64.Build.0 = Release|Any CPU
+		{98EF76A7-7B69-4AAF-928F-B5D74726022B}.Release|x86.ActiveCfg = Release|Any CPU
+		{98EF76A7-7B69-4AAF-928F-B5D74726022B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
